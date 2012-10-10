@@ -1,3 +1,4 @@
+#Here the name I used is smya which is my nick :P
 #  gcompris - smya.py
 #
 # Copyright (C) 2003, 2008 Bruno Coudoin
@@ -102,13 +103,7 @@ class Gcompris_smya:
   
     txt.connect("button_press_event", self.txt_event)    
     
-      #GooCanvasItem *ellipse = goo_canvas_ellipse_new (mygroup, 100.0, 100.0, 50.0, 30.0,
-       #                                                "stroke-color", "red",
-      #"line-width", 5.0,
-      #                                              "fill-color", "blue",
-       #                                             NULL);
-
-    el = goocanvas.Ellipse(
+      el = goocanvas.Ellipse(
       parent=self.rootitem,
       center_x=100,
       center_y=100,
